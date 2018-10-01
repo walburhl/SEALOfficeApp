@@ -19,7 +19,7 @@ public class Organization {
             "BSAA",
             "Chinese American Cultural Association",
             "China America Business Organization",
-            "Chinese Scholars",
+            "Chinese Students and Scholars Association",
             "CIA - Chinese Information Association",
             "Circle K",
             "College Mentors for Kids",
