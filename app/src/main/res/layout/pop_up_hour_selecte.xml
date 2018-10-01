@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:padding="7dp"
+    >
+
+
+
+
+    <Button
+        android:id="@+id/hourFour"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/popUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:visibility="visible"
+        android:layout_above="@+id/hourFour"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/hourThree"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_toLeftOf="@id/hourFour"
+        android:text="3" />
+
+
+    <Button
+        android:id="@+id/hourFive"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="5"
+        android:layout_toRightOf="@id/hourFour"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"/>
+
+    <Button
+        android:id="@+id/hourTwo"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_toLeftOf="@id/hourThree"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/hourOne"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toLeftOf="@id/hourTwo"
+        android:text="1"
+         />
+
+    <Button
+        android:id="@+id/hourSix"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="6"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/hourFive"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+
+        />
+
+    <Button
+        android:id="@+id/hourSeven"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="7"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/hourSix"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp" />
+
+
+
+
+</RelativeLayout>

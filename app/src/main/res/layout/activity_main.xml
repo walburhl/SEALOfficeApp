@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.olsencheung4930.studentorgtimetablev1.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/miamiLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Miami Logo"
+        app:srcCompat="@drawable/miami_logo" />
+
+    <TextView
+        android:id="@+id/orgName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/miamiLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Enter Organization"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="visible" />
+
+    <AutoCompleteTextView
+        android:id="@+id/orgNameInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/orgName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter your organization name here"
+        android:textColor='#000000'
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/studentNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orgNameInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Enter your UniqueID"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/studentNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentNameTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="14"
+        android:hint="Enter your UniqueID here"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/orgName"
+        android:text="Check in" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/orgName"
+        android:text="Check out" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/nameText"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_below="@+id/TimeInput"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="21dp"-->
+    <!--android:text="Enter your name"-->
+    <!--tools:gravity="center" />-->
+
+</RelativeLayout>
