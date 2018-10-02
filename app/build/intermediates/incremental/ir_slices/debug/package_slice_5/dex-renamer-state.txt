@@ -1,4 +1,4 @@
-#Mon Oct 01 12:08:30 EDT 2018
+#Mon Oct 01 17:37:09 EDT 2018
 base.0=C\:\\Users\\walburhl\\Desktop\\StudentOrgTimeTableV1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
 path.0=classes.dex
 renamed.0=classes.dex

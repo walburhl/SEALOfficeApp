@@ -32,7 +32,7 @@ public class Organization {
             "Engineering & Computing Student Council",
             "Engineers without Borders",
             "eSports",
-            "F-WORD",
+            "FWORD",
             "Graduate Students of Color",
             "Green Oxford",
             "Habitat for Humanity",
